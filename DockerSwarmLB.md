@@ -4,15 +4,25 @@
 
 ```bash
 sudo apt-get update -y && sudo apt-get upgrade -y
+```
+```bash
 apt install docker.io
+```
+```bash
 sudo systemctl status docker
+```
+```bash
 sudo systemctl enable docker
 ```
 ## 2. Docker Compose Kurulumu
 
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+```bash
 sudo chmod +x /usr/local/bin/docker-compose
+```
+```bash
 docker-compose --version
 ```
 ## 3. Docker Swarm Init ve Master Node Oluşturma
